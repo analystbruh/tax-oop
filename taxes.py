@@ -4,8 +4,8 @@ from enum import Enum
 
 class TaxCategory(Enum):
     SINGLE = 1
-    MARRIED_FILLING_JOINTLY = 2
-    MARRIED_FILLING_SEPARATELY = 3
+    MARRIED_FILING_JOINTLY = 2
+    MARRIED_FILING_SEPARATELY = 3
     HEAD_OF_HOUSEHOLD = 4
 
 @dataclass
